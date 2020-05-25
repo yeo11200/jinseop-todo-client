@@ -26,3 +26,10 @@ npm install --save react-router-dom
 > **왜 프론트에서 Router를 걸까?** <br>
 > **1. 주소에 따라서 다른 view를 보여주기 위해서** <br>
 > **2. 페이지가 하나로 다양한 개발을 하기 위해서** <br>
+
+#### 3. ajax를 처리 하기위한 npm 설치
+```npm
+yarn add axios
+or
+npm install --save axios
+```
