@@ -54,3 +54,18 @@ export default class aaa extends Component {
 
 #### 5. react class conponent life cycle
 ##### 1) constructor : conponent가 실행되자마자 바로실행할 함수
+> constructor 안에 super은 부모의 컴포넌트의 값을 가지고 오는데 사용
+```js
+   /**
+     * 생성자 : component가 실행되자마자 실행되는 함수
+     * 여기서 props를 받아서 super를 사용하는데
+     * 자바에서 super 부모에서 받아온 데이터를 사용할 때 사용한다. 
+     */
+    constructor(props){
+        super(props);
+
+        this.state = {
+            number : 0,
+        }
+    }
+```
