@@ -33,3 +33,24 @@ yarn add axios
 or
 npm install --save axios
 ```
+
+#### 4. class component 자동
+React, React-native, 자동으로 생성가능
+```js
+rcc + control + space
+
+import React, { Component } from 'react'
+export default class aaa extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
+}
+
+```
+
+#### 5. react class conponent life cycle
+##### 1) constructor : conponent가 실행되자마자 바로실행할 함수
