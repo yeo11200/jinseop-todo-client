@@ -9,6 +9,7 @@ function App() {
   return (
     <BrowserRouter>
         <Header></Header>
+        {/* <Content></Content> */}
         <Footer></Footer>
     </BrowserRouter>
   );
